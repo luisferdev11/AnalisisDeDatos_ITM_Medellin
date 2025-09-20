@@ -13,8 +13,6 @@
 
 ---
 
----
-
 ## Tipo de datos
 
 Este dataset corresponde a **datos secundarios/terciarios**:
