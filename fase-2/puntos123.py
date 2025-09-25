@@ -186,5 +186,8 @@ resultados_outliers = detectar_valores_atipicos(df, columnas_numericas)
 # 3. Análisis de distribuciones
 resultados_distribuciones = analizar_distribuciones(df, columnas_numericas)
 
+# 4. Guardamos el dataset limpio para los siguientes puntos
+df.to_csv("healthcare_clean.csv", index=False)
+
 print("\n¡Análisis completado exitosamente!")
 print(f"Todos los outputs se han guardado en la carpeta: {output_folder}/")
