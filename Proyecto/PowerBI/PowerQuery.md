@@ -113,3 +113,7 @@ Tamaño Promedio (KB) = AVERAGE(Images[SizeKB])
 -- % Subtipo
 % Bacteria = DIVIDE(CALCULATE([Total Imágenes], Images[Subtype]="Bacteria"), [Total Imágenes])
 % Virus    = DIVIDE(CALCULATE([Total Imágenes], Images[Subtype]="Virus"), [Total Imágenes])
+
+
+## Enlace de Dashboard
+https://app.powerbi.com/groups/me/reports/fef12279-9c3c-49e7-b213-72c173f1fd8c?pbi_source=desktop
